@@ -1,6 +1,6 @@
-##BenjaminCrawford-README
+## BenjaminCrawford-README
 
-###My First ReadMe
+### My First ReadMe
 
 * This will contain things related to my projects
 * I'll likely include important info _here_
