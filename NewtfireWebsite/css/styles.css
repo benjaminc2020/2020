@@ -1,51 +1,89 @@
-headermain{
-    font-family: 'Architects Daughter', cursive;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 64px;
-    color:black; 
-    text-align: center;
+html, body{margin:0; padding:0}
+
+body {
+    background-color: #202020;
 }
-.container {
-    align-items: center;
+
+.NavBar{
+    display: flex
+}
+
+.NavBar h1{
+    font-family: 'Darker Grotesque', sans-serif;
     display: flex;
-   
+    flex-direction: row;
+    color: white;
+    font-size: 45px;
+    width: 24vw;
+    padding-left: 5vw;
 }
 
-
-.img {
-    width:10%;
-    height: 10%;
-    border-radius: 50%;
-
+.NavBar h2{
+    font-family: 'Libre Franklin', sans-serif;
+    color: #9C9C9C;
+    font-size: 15px;
+    justify-content: center;
+    padding-top: 5vh;
+    padding-left: 10vw;
 }
-.image{
-    width:5%;
-    height:5%;
-    border-radius: 50%;
-    padding: 40px 60px;
-    padding-bottom: 40px;
-   
-  
-}
-.category {
-    border-radius: 10px;
-    display: block;
-    font-family: "Roboto", sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-    color: cadetblue;
-    padding: 15px 20px;
-    text-align: center;
+
+ul li{
+    display: flex;
     text-decoration: none;
-    width: 50%;
-    background-color: #6EA3D7;
+    justify-content: center;
+    justify-content: space-between;
+    padding-right: 10vw;
 }
-.p{
-    font-family: 'Architects Daughter', cursive;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 64px;
-    color:black; 
-    text-align: center;
+
+ul {
+    display: flex;
+}
+
+.NavBar h3 {
+    display: flex
+}
+.Spot {
+    height: 3vh;
+    width: 1.5vw;
+    padding-right: 2vw;
+    padding-left: 7vw;
+    padding-top: 5.6vh;
+}
+.Sound {
+   height: 2.5vh;
+    width: 2.5vw; 
+    padding-top: 6vh;
+}
+.Vesu{
+    height: 80vh;
+    width: 40vw;
+    padding-left: 5vw;
+    padding-top: 10vh;
+}
+.Content{
+    display: flex;
+}
+
+.Welcome{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 40vw;
+    padding-top: 30vh;
+    padding-left: 8vw;
+}
+p{
+    font-size: 52px;
+    justify-content: center;
+    font-family: 'Darker Grotesque', sans-serif;
+    color: white;
+    margin:0; padding:0;
+}
+p2{
+    font-size: 20px;
+    justify-content: center;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 200;
+    color: #B2B2B2;
+    margin:0; padding:0;
 }
