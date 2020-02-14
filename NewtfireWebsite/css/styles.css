@@ -8,7 +8,7 @@ body {
     display: flex
 }
 
-.NavBar h1{
+.NavBar h1 a{
     font-family: 'Darker Grotesque', sans-serif;
     display: flex;
     flex-direction: row;
@@ -34,7 +34,20 @@ ul li{
     justify-content: space-between;
     padding-right: 10vw;
 }
+a {
+    text-decoration: none;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #9C9C9C;
+    font-size: 15px;
+}
 
+a:hover {
+    text-decoration: none;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #E7E7E7;
+    font-size: 15px;
+    text-shadow: 2px 2px 8px grey;
+}
 ul {
     display: flex;
 }
@@ -56,12 +69,13 @@ ul {
 }
 .Vesu{
     height: 80vh;
-    width: 40vw;
+    width: auto;
     padding-left: 5vw;
     padding-top: 10vh;
 }
-.Content{
+#page1 .Content{
     display: flex;
+    padding-bottom: 15%;
 }
 
 .Welcome{
@@ -72,18 +86,62 @@ ul {
     padding-top: 30vh;
     padding-left: 8vw;
 }
-p{
-    font-size: 52px;
-    justify-content: center;
-    font-family: 'Darker Grotesque', sans-serif;
-    color: white;
-    margin:0; padding:0;
+    p{
+        font-size: 52px;
+        justify-content: center;
+        font-family: 'Darker Grotesque', sans-serif;
+        color: white;
+        margin:0; padding:0;
+    }
+    p2{
+        font-size: 20px;
+        justify-content: center;
+        font-family: 'Mukta', sans-serif;
+        font-weight: 200;
+        color: #B2B2B2;
+        margin:0; padding:0;
 }
-p2{
-    font-size: 20px;
+.footer{
+    display: flex;
+    background-color: #2D2D2D;
+    height: 10vh;
+    width: 100vw;
     justify-content: center;
-    font-family: 'Mukta', sans-serif;
-    font-weight: 200;
-    color: #B2B2B2;
-    margin:0; padding:0;
+    
+}
+.footContain{
+    display: flex;
+    justify-content: center;
+    width: 10vw;
+    align-items: center;
+}
+.footContain p{
+    font-family: 'Libre Franklin', sans-serif;
+    color: #9C9C9C;
+    font-size: 14px;
+}
+
+#page2 .Welcome p{
+        font-size: 72px;
+        justify-content: center;
+        font-family: 'Darker Grotesque', sans-serif;
+        color: white;
+        margin:0; padding:0;
+}
+
+#page2 .Content{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 15%;
+    padding-right: 10%;
+}
+#page3 .Content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.railRoad{
+    padding: 2%;
+    height: 100vh;
+    width: auto;
 }
